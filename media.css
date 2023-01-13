@@ -2,6 +2,7 @@
     .header-area .nav-link {
         margin-right: 5px;
     }
+
     .my-text h3 {
         font-size: 36px;
     }
@@ -13,46 +14,62 @@
         margin-right: 1px;
         position: relative;
     }
-    .div-btn{
+
+    .div-btn {
         display: flex;
         justify-content: center;
         margin-bottom: 15px;
     }
-    .div-btn .btn-orange{
+
+    .div-btn .btn-orange {
         width: 50%;
     }
+
     .about h3,
-    .about p, .about h4{
+    .about p,
+    .about h4 {
         text-align: center;
     }
+
     .working .my-text h2 {
         font-size: 126px !important;
         margin: 0;
         text-align: center;
     }
-    .working-btn,.about-btn{
+
+    .working-btn,
+    .about-btn {
         margin: auto;
         margin-bottom: 20px;
     }
-    .about, .working {
+
+    .about,
+    .working {
         padding-block: 30px;
     }
+
     .my-text h3,
     .my-text h4,
-    .my-text p{
+    .my-text p {
         text-align: center;
     }
-    .my-text button{
+
+    .my-text button {
         margin: auto;
         margin-bottom: 45px;
     }
-    .latest-news{
+
+    .latest-news {
         padding: 40px;
     }
-    .latesh{
+
+    .latesh {
         margin-bottom: 40px;
     }
-    .latesh-btn, .latesh h4, .latesh p{
+
+    .latesh-btn,
+    .latesh h4,
+    .latesh p {
         text-align: center;
     }
 
@@ -60,6 +77,7 @@
         flex-basis: 48%;
         text-align: center;
     }
+
     .img-auto {
         margin-top: 50px;
         display: flex;
@@ -73,15 +91,18 @@
     .data {
         padding: 50px 0;
     }
-    .box-project{
+
+    .box-project {
         margin-top: 20px;
     }
+
     .hero .img-fluid {
         width: 80%;
         border-radius: 60px 0;
         display: flex;
         justify-content: space-evenly;
     }
+
     .img-border::after {
         width: 80%;
         z-index: -1;
@@ -89,34 +110,41 @@
         left: 17px;
         border-radius: 60px 0;
     }
-    img.about-img{
+
+    img.about-img {
         width: 80%;
-        border-radius: 80px 0;
+        border-radius: 60px 0;
     }
-    .about-border{
+
+    .about-border {
         display: flex;
         justify-content: center;
     }
-    .about-border::after{
-        border-radius: 80px 0;
+
+    .about-border::after {
+        border-radius: 60px 0;
         left: 15px;
         width: 80%;
     }
-    .working-img{
+
+    .working-img {
         width: 80%;
-        border-radius: 70px 0;
+        border-radius: 50px 0;
     }
-    .working-border{
+
+    .working-border {
         display: flex;
         justify-content: space-evenly;
     }
-    .working-border::after{
+
+    .working-border::after {
         top: 17px;
         left: 17px;
-        border-radius:70px 0;
+        border-radius: 50px 0;
         width: 80%;
     }
-    .project h2{
+
+    .project h2 {
         font-size: 42px;
     }
 }
@@ -127,6 +155,7 @@
         margin-top: 30px;
         margin: auto;
     }
+
     .footer-item {
         flex-basis: 100%;
         margin-top: 15px;
@@ -162,46 +191,77 @@
         margin-right: 0px !important;
         width: 20% !important;
     }
-    .input input{
+
+    .input input {
         width: 64%;
         font-size: 18px;
     }
-    .input button{
+
+    .input button {
         width: 32%;
         font-size: 18px;
     }
-    .box-project{
+
+    .box-project {
         width: 200px;
         height: 200px;
         border-radius: 10px;
     }
-    .box-project h3{
+
+    .box-project h3 {
         font-size: 46px;
     }
-    .box-project p{
+
+    .box-project p {
         font-size: 20px;
     }
-    .latesh-text h2{
+
+    .latesh-text h2 {
         margin-bottom: 32px;
     }
-    .latesh img{
+
+    .latesh img {
         width: 80%;
-        border-radius: 70px 0;
+        border-radius: 50px 0;
     }
-    .latesh-img::after{
+
+    .latesh-img::after {
         width: 80%;
-        border-radius: 70px 0;
+        border-radius: 50px 0;
     }
 }
 
-@media screen and (max-width:576px){
-    .input input{
+@media screen and (max-width:576px) {
+    .input input {
         width: 100%;
         font-size: 16px;
         margin-bottom: 5px;
     }
-    .input button{
+
+    .input button {
         width: 100%;
         font-size: 16px;
+    }
+
+    .box-project {
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    .box-project h3 {
+        font-size: 32px;
+    }
+
+    .box-project p {
+        font-size: 17px;
+    }
+
+    .subscription h3 {
+        font-size: 32px;
+    }
+
+    .subscription p {
+        font-size: 12px;
     }
 }
