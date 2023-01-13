@@ -213,7 +213,7 @@ i {
 }
 
 .btn-green2:hover {
-    background-color: transparent;
+    background-color: var(--green-dark--);
     color: #fff;
 }
 /*=================================== about End=====================*/
