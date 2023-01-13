@@ -1,0 +1,130 @@
+@media screen and (max-width:1100px) {
+    .header-area .nav-link {
+        margin-right: 5px;
+    }
+    .my-text h3 {
+        font-size: 36px;
+    }
+}
+
+/* =======================991============================ */
+@media screen and (max-width:991px) {
+    .header-area .nav-link {
+        margin-right: 1px;
+        position: relative;
+    }
+    .div-btn{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    .div-btn .btn-orange{
+        width: 50%;
+    }
+    .about h3,
+    .about p, .about h4{
+        text-align: center;
+    }
+    .working .my-text h2 {
+        font-size: 126px !important;
+        margin: 0;
+        text-align: center;
+    }
+    .working-btn,.about-btn{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .about, .working {
+        padding-block: 30px;
+    }
+    .my-text h3,
+    .my-text h4,
+    .my-text p{
+        text-align: center;
+    }
+    .my-text button{
+        margin: auto;
+        margin-bottom: 45px;
+    }
+    .latest-news{
+        padding: 40px;
+    }
+    .latesh{
+        margin-bottom: 40px;
+    }
+    .latesh-btn, .latesh h4, .latesh p{
+        text-align: center;
+    }
+
+    .footer-item {
+        flex-basis: 48%;
+        text-align: center;
+    }
+    .img-auto {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .customize-text {
+        text-align: center;
+    }
+
+    .data {
+        padding: 50px 0;
+    }
+    .box-project{
+        margin-top: 20px;
+    }
+}
+
+/* =======================750============================ */
+@media screen and (max-width:768px) {
+    .hero .img-fluid {
+        margin-top: 30px;
+        margin: auto;
+    }
+    .footer-item {
+        flex-basis: 100%;
+        margin-top: 15px;
+    }
+
+    .footer-item ul {
+        padding: 0;
+    }
+
+    .footer-btn {
+        display: inline;
+    }
+
+    .footer-item {
+        text-align: center;
+    }
+
+    .data {
+        padding: 35px 0;
+    }
+
+    .footer-top h2,
+    .work h2,
+    .plan h2 {
+        font-size: 28px;
+    }
+
+    .footer-item p {
+        font-size: 13px;
+    }
+
+    .client-box-img img {
+        margin-right: 0px !important;
+        width: 20% !important;
+    }
+    .input input{
+        width: 64%;
+        font-size: 18px;
+    }
+    .input button{
+        width: 32%;
+        font-size: 18px;
+    }
+}
