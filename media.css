@@ -218,6 +218,7 @@
 
     .latesh-text h2 {
         margin-bottom: 32px;
+        font-size: 40px;
     }
 
     .latesh img {
@@ -263,5 +264,8 @@
 
     .subscription p {
         font-size: 12px;
+    }
+    .latesh-text h2 {
+        font-size: 32px;
     }
 }
